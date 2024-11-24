@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 7rem;
+}
+
+.weatherapp {
+    height: 400px;
+    width: 300px;
+    border: 2px solid black;
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(89, 125, 198, 1) 70%, rgba(70, 119, 197, 1) 79%, rgba(25, 104, 196, 1) 100%);
+    border-radius: 20px;
+}
+
+.user_input input {
+    text-align: center;
+    height: 2rem;
+    width: 13rem;
+    margin-left: 1rem;
+    border-radius: 10px;
+    padding: 0 5px;
+}
+
+.user_input button {
+    padding: 7px;
+    margin-top: 15px;
+    border: none;
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(25, 104, 196, 1) 100%);
+    border-radius: 5px;
+    color: white;
+}
+
+.data_cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: large;
+    color: white;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 20px;
+}
+
+.data_cont .icon {
+    width: 20%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.data_cont .cityname {
+    font-size: xx-large;
+}
